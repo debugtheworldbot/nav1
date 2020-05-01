@@ -11,14 +11,24 @@
   </head>
   <body>
     <header class="head">
-      <form
-        class="search"
-        method="get"
-        action="https://www.baidu.com/s"
-        target="_blank"
-      >
-        <input name="wd" type="text" /> <button type="submit">搜索</button>
-      </form>
+      <div class="wrap">
+        <div class="search">
+          <form
+            class="search"
+            method="get"
+            action="https://www.baidu.com/s"
+            target="_blank"
+          >
+            <input
+              name="wd"
+              type="text"
+              class="searchTerm"
+              placeholder="What are you looking for?"
+            />
+            <button type="submit" class="searchButton">搜索</button>
+          </form>
+        </div>
+      </div>
     </header>
     <main class="content">
       <ul class="siteList">

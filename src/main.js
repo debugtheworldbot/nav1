@@ -12,6 +12,10 @@ const hashMap = savingObject || [
     logo: "B",
     url: "https://bilibili.com",
   },
+  {
+    logo: "C",
+    url: "https://codepen.io",
+  },
 ];
 
 const simplifyUrl = (url) => {
